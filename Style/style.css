@@ -1,0 +1,97 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#menu {
+	display: inline;
+}
+#header{
+	width:auto;
+	height:30px;
+	margin:0px auto;
+	background-color:#727272;
+	color: #fff;
+}
+
+#header a
+{
+	text-decoration: none;
+	color: #fff;
+	font: 15pt Tahoma;
+
+}
+
+#header  a:hover{
+	color: black;	
+} 
+
+#header #menu ul li {
+	display: inline;
+	padding: 0px 3px 0px 3px;
+	height: 2px;
+
+} 
+
+#header #menu ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font: 15pt Tahoma;
+	padding: 0px 11px 0px 15px;
+	font-weight: normal;
+	float: right;	
+
+}
+
+#header #menu ul li a:hover{
+	color: black;	
+} 
+
+#header #menu ul li {
+	display: inline;
+	padding: 0px 3px 0px 3px;
+	height: 2px;
+
+} 
+
+#header h2 b a {
+	float: left;
+	font: 16pt Tahoma;
+	left: 50%;
+	padding: 0px 11px 0px 15px;
+
+}
+
+#content {
+	background:url(../images/STMNP.jpg);
+	background-size: cover;
+	height: 622px;
+	width: auto;
+}
+
+#content img {
+	width: 135px;
+	height: 125px;
+	
+	margin: 20px 20px 0 0 ;
+	padding: 30px 5px 22px 625px;
+}
+
+#content h1 {
+	color: #fff;
+	font: 35pt Tahoma;
+}
+
+#footer{
+	width:auto;
+	height:40px;
+	margin:0px auto;
+	background-color:#727272;
+	color: #fff;
+	font: 10pt Tahoma;
+
+.floating{
+clear:both;
+height:0px;
+line-height:0px;
+}

@@ -1,0 +1,123 @@
+body{
+	font-family: Tahoma;
+	background-color:rgba(0,0,0,.4);
+
+}
+
+.img{
+	margin-left: 170px;
+	margin-top: 100px;
+	width: 531px;
+	background-repeat: repeat-x;
+}
+.kolom{
+	width:500px;
+	height:400px; 
+	background-color:rgba(0,0,0,.4);
+	color:#fff;
+	top:60%;
+	left:51%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:50px 30px;
+	border-radius: 12px;
+}
+.kolom h1{
+		color: 	#fff;
+
+}
+.data{
+	width:120px;
+	height:110px;
+	border-radius:50%;
+	border: 0px;
+	position:absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+}	
+
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:10px;
+}
+
+.kolom p{
+	margin:0;
+	padding:0;
+	font-weight:bold; 
+}
+
+.kolom input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.kolom input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color: #fff;  
+	font-size:16px;
+	
+}
+
+.kolom input[type="submit"]{
+	border-style: solid;
+	border-color: #fff;
+	outline:none;
+	height:40px;
+	background:#727272;
+	color:#fff;
+	font-size:14px;
+	border-radius:20px;
+	display: inline-block;
+}
+
+.kolom input[type="submit"]:hover{
+
+	background:#727272;
+	color:#000;
+}
+
+.kolom input[type="submit"]:active{
+	background:#727272;
+
+}
+
+.kolom a{
+	text-decoration:none;
+	font-size:19px;
+	font-family: calibri;
+	color:white; 
+	outline: none;
+	
+	
+
+}
+
+.kolom a:hover{
+	color:white;
+}
+
+.kolom button{
+	text-decoration:none;
+	font-size:13px;
+	line-height:0px;
+	font-family: calibri;
+	color:red;
+	border-style: solid;
+	border-color: #fff;
+	background-color: #0000FF; 
+	border-width: 2px;
+	border-radius: 10px; 
+	outline: none;
+	height: 50px;
+	width: 8px;
+	padding: 10px 40px;
+
+}
